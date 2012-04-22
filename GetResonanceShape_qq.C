@@ -36,7 +36,7 @@ void GetResonanceShape_qq()
 
        // make the histograms
        h_pdf[j]=new TH1D(TString(histname)+"_pdf", "q#bar{q} Resonance Shape", 14000, 0, 14000);
-       h_cdf[j]=new TH1D(TString(histname)+"_cdf", "q#bar{q} Resonance Shape CDF", 2800, 0, 14000);
+       h_cdf[j]=new TH1D(TString(histname)+"_cdf", "q#bar{q} Resonance Shape CDF", 14000, 0, 14000);
 
        for(int i=1; i<=h_shape[j]->GetNbinsX(); i++){
 
