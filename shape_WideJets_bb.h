@@ -1,6 +1,7 @@
 #ifndef _SHAPE_H
 #define _SHAPE_H
 
+  // G->bbbar
 
   double mass;
 
